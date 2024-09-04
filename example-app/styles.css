@@ -1,0 +1,41 @@
+.task {
+    position: relative;
+    border: solid 1px black;
+    padding: 0.5em;
+    margin: 0.25em;
+    border-radius: 5px;
+    width: 20vw;
+    height: 1.5em;
+    text-align: center;
+    flex: none;
+}
+
+.task-button {
+    position: absolute;
+    right: 1em;
+}
+
+.task-input {
+    margin: 0.25em;
+}
+
+.input-button {
+    margin: 0.5em 0;
+    height: 2.75em;
+}
+
+.input-box {
+    margin: 0.5em 0;
+    width: 30em;
+    height: 2.5em;
+    padding: 0 1em;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
